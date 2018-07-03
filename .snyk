@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - machinepack-process > machine > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machine > rttc > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machine-as-action > rttc > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machine-as-action > machine > rttc > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machine-as-action > machine > switchback > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machinepack-redis > machine > include-all > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machinepack-redis > machine > rttc > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machinepack-redis > machine > switchback > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machine > switchback > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - sort-route-addresses > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - sails-generate > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - sails-generate > machinepack-process > machine > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - sails-generate > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - sails-generate > reportback > switchback > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
+    - skipper > lodash:
+        patched: '2018-07-03T05:06:51.045Z'
